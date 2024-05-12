@@ -59,7 +59,6 @@ img {
 
 .btn,
 a,
-.how-to-start .step,
 .go-up {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -380,12 +379,6 @@ footer .four .btns a:hover p {
     color: #010101;
 }
 
-.home .wave {
-    background-image: url("../imgs/wave.svg");
-    width: 10000px;
-    height: 20%;
-}
-
 .home .wave.one {
     bottom: -5%;
     left: 0;
@@ -461,63 +454,6 @@ footer .four .btns a:hover p {
 }
 
 /* End Features */
-/* Start How To Start Section */
-.how-to-start .row .col-md-5:not(.last),
-.how-to-start .row .col-md-2:not(.last),
-.how-to-start .row .col-12:not(.last) {
-    height: 250px;
-    padding-bottom: 50px;
-}
-
-.how-to-start .row .col-md-2,
-.how-to-start .row .col-12.mobile {
-    text-align: center;
-}
-
-.how-to-start ul li {
-    list-style: disc;
-    margin-bottom: 10px;
-}
-
-.how-to-start .card {
-    box-shadow: 3px 5px 15px 0 #ccc;
-}
-
-.how-to-start .card-body {
-    padding: 0;
-}
-
-.how-to-start .card-title {
-    color: #fff;
-    padding: 1rem;
-}
-
-.how-to-start .step {
-    display: inline-block;
-    width: 55px;
-    height: 55px;
-    border: 2px solid;
-    background-color: #fff;
-    border-radius: 35% 35% 35% 35% / 35% 35% 35% 35%;
-    line-height: 49px;
-}
-
-.how-to-start .step img {
-    width: 35px;
-    height: 35px;
-}
-
-.how-to-start .line {
-    width: 3px;
-    height: 100%;
-    top: 0;
-    left: 50%;
-    z-index: -1;
-    border-right: 1px dashed #ccc;
-    animation-delay: 1s;
-}
-
-/* End How To Start Section */
 
 /* Start Contact Us */
 .contact-us {
@@ -689,13 +625,6 @@ footer hr {
 @media (max-width: 767px) {
     .home h1 {
         font-size: 1.8rem;
-    }
-
-    .how-to-start .row .col-md-5:not(.last),
-    .how-to-start .row .col-md-2:not(.last),
-    .how-to-start .row .col-12:not(.last) {
-        height: auto;
-        /* animation-delay: 0; */
     }
 
 
