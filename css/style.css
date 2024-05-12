@@ -694,6 +694,14 @@ footer hr {
     footer {
         padding-top: 10px;
     }
+
+    .no-mb {
+        margin-bottom: 0 !important;
+    }
+
+    .features .float-img img {
+        margin: 50px 0;
+    }
 }
 
 @media (max-width: 991px) {
