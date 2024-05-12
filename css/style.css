@@ -151,7 +151,7 @@ footer .overlay {
 
 nav .overlay.show,
 .home .overlay {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* Start Go UP */
@@ -335,6 +335,7 @@ nav .fa.fa-bars {
 
 .home h1 {
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .home .info .btns .btn,
