@@ -152,12 +152,12 @@ footer .overlay {
 
 nav .overlay.show,
 .home .overlay {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 /* Start Go UP */
 .go-up {
-    bottom: 60px;
+    bottom: 50px;
     right: 2%;
     z-index: 9999;
     background-image: linear-gradient(to right, var(--main-color), var(--second-color), var(--main-color));
@@ -178,12 +178,20 @@ nav .overlay.show,
     -o-border-radius: 50%;
 }
 
+.go-up i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    text-align: center;
+}
+
 .go-up:hover {
     background-position: left;
 }
 
 .go-up-2 {
-    bottom: 110px;
+    bottom: 100px;
 }
 
 /* End Go UP */
