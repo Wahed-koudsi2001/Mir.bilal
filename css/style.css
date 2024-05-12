@@ -157,28 +157,33 @@ nav .overlay.show,
 
 /* Start Go UP */
 .go-up {
-    bottom: 8%;
+    bottom: 60px;
     right: 2%;
     z-index: 9999;
-    background-image: linear-gradient(to right,
-            var(--main-color),
-            var(--second-color),
-            var(--main-color));
+    background-image: linear-gradient(to right, var(--main-color), var(--second-color), var(--main-color));
     background-position: right;
     background-size: 200% auto;
     width: 40px;
     height: 40px;
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 40px;
     border-radius: 50%;
     cursor: pointer;
     display: none;
     z-index: 999;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .go-up:hover {
     background-position: left;
+}
+
+.go-up-2 {
+    bottom: 110px;
 }
 
 /* End Go UP */
@@ -311,7 +316,7 @@ nav .fa.fa-bars {
 /* End Navbar */
 /* Start Home Page */
 .home {
-    background-image: url("../imgs/hero-img.jpg");
+    background-image: url("../imgs/hero-img.webp");
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 3;
@@ -329,10 +334,10 @@ nav .fa.fa-bars {
 footer .four .btns .btn {
     border: 2px solid #b5ad15;
     border-radius: 10px;
-    width: 210px;
+    width: 170px;
     margin-left: 20px;
     margin-bottom: 20px;
-    padding: 15px 22px;
+    padding: 10px 20px;
 }
 
 .home .info .btns i,
@@ -341,13 +346,13 @@ footer .four .btns i {
     color: #b5ad15;
     display: inline;
     padding-left: 10px;
+    padding-top: 4px;
 }
 
 .home .info .btns p,
 footer .four .btns p {
     color: #fff;
     font-weight: bold;
-    font-size: 15px;
 }
 
 .home .info .btns span,
@@ -508,7 +513,6 @@ footer .four .btns a:hover p {
 
 /* Start Contact Us */
 .contact-us {
-    padding-top: 150px;
     padding-bottom: 50px;
 }
 
