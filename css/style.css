@@ -88,7 +88,7 @@ a:hover {
 #2. Common Style ( Main Titles, Go Up....)  <--------
 */
 .section-block {
-    padding: 80px 0;
+    padding-top: 80px;
 }
 
 .section-heading {
@@ -389,15 +389,14 @@ footer .four .btns i {
     padding-top: 4px;
 }
 
-.home .info .btns p,
-footer .four .btns p {
+.home .info .btns span {
     color: #fff;
     font-weight: bold;
 }
 
-.home .info .btns span,
-footer .four .btns span {
-    color: #b5ad15;
+.home .info .btns p,
+footer .four .btns p {
+    color: #fff;
     font-weight: bold;
 }
 
