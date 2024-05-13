@@ -209,6 +209,13 @@ nav .overlay.show,
     width: inherit;
 }
 
+.mesh-loader h1 {
+    text-align: center;
+    margin-top: 100px;
+    animation: AjirlyOpacity 3s ease-in-out infinite -1.5s;
+    -webkit-animation: AjirlyOpacity 3s ease-in-out infinite -1.5s;
+}
+
 .mesh-loader .circle {
     width: 30px;
     height: 30px;
@@ -235,6 +242,34 @@ nav .overlay.show,
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+@keyframes AjirlyOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes AjirlyOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 @-webkit-keyframes mesh {
