@@ -118,7 +118,6 @@ a:hover {
 }
 
 nav .overlay,
-.home .overlay,
 footer .overlay {
     top: 0;
     left: 0%;
@@ -149,9 +148,13 @@ footer .overlay {
     opacity: 0;
 }
 
+.home .overlay {
+    background-color: #032d48;
+}
+
 nav .overlay.show,
 .home .overlay {
-    opacity: 0.9;
+    opacity: 1;
 }
 
 /* Start Go UP */
@@ -357,13 +360,6 @@ nav .fa.fa-bars {
 
 /* End Navbar */
 /* Start Home Page */
-.home {
-    background-image: url("../imgs/hero-img.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 3;
-}
-
 .home .col {
     height: 700px;
 }
@@ -375,18 +371,19 @@ nav .fa.fa-bars {
 
 .home .info .btns .btn,
 footer .four .btns .btn {
-    border: 2px solid #b5ad15;
+    border: 2px solid #000;
     border-radius: 10px;
     width: 170px;
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 10px 20px;
+    background-color: #000;
 }
 
 .home .info .btns i,
 footer .four .btns i {
     font-size: 20px;
-    color: #b5ad15;
+    color: #fff;
     display: inline;
     padding-left: 10px;
     padding-top: 4px;
@@ -402,17 +399,6 @@ footer .four .btns p {
 footer .four .btns span {
     color: #b5ad15;
     font-weight: bold;
-}
-
-.home .info .btns a:hover,
-footer .four .btns a:hover {
-    background-color: #fff;
-    border: 2px solid #fff;
-}
-
-.home .info .btns a:hover p,
-footer .four .btns a:hover p {
-    color: #010101;
 }
 
 .home .wave.one {
@@ -673,7 +659,7 @@ footer hr {
     }
 
     .features .float-img img {
-        margin: 50px 0;
+        margin-bottom: 50px;
     }
 }
 
