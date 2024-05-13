@@ -58,7 +58,7 @@ $(function () {
     setTimeout(() => {
         $("body").removeClass("is-loading");
         $(".loading").fadeOut(600);
-    }, 10000);
+    }, 2000);
 
     // Activate Wow.js
     wow = new WOW({
