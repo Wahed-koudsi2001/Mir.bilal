@@ -32,7 +32,6 @@ h6 {
     line-height: 1.4;
     font-weight: 600;
     color: #263b5e;
-    text-transform: capitalize;
     letter-spacing: 1px;
 }
 
@@ -149,7 +148,7 @@ footer .overlay {
 }
 
 .home .overlay {
-    background-color: #032d48;
+    background-color: #101044;
 }
 
 nav .overlay.show,
@@ -201,7 +200,7 @@ nav .overlay.show,
 .loading {
     width: 100vw;
     height: 100vh;
-    background-color: #fff;
+    background-color: #101044;
     background-size: 200% auto;
     z-index: 9999;
     position: fixed;
@@ -213,21 +212,35 @@ nav .overlay.show,
 }
 
 .mesh-loader h1 {
+    color: #fff;
     text-align: center;
     margin-top: 100px;
     animation: AjirlyOpacity 3s ease-in-out infinite -1.5s;
     -webkit-animation: AjirlyOpacity 3s ease-in-out infinite -1.5s;
 }
 
+.mesh-loader h1 span {
+    color: #e22e04;
+}
+
 .mesh-loader .circle {
     width: 30px;
     height: 30px;
     position: absolute;
-    background: var(--main-color);
+    background: #e22e04;
     border-radius: 50%;
     margin: -15px;
     -webkit-animation: mesh 3s ease-in-out infinite -1.5s;
     animation: mesh 3s ease-in-out infinite -1.5s;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-brand span {
+    color: #e22e04;
 }
 
 .mesh-loader>div .circle:last-child {
@@ -373,20 +386,29 @@ nav .fa.fa-bars {
 footer .four .btns .btn {
     border: 2px solid #000;
     border-radius: 10px;
-    width: 170px;
+    width: 200px;
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 10px 20px;
     background-color: #000;
 }
 
+.home .info .btns .btn {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .home .info .btns i,
 footer .four .btns i {
-    font-size: 20px;
+    font-size: 32px;
     color: #fff;
     display: inline;
-    padding-left: 10px;
-    padding-top: 4px;
+}
+
+.home .info .btns img {
+    width: 30px;
 }
 
 .home .info .btns span {
@@ -397,6 +419,7 @@ footer .four .btns i {
 .home .info .btns p,
 footer .four .btns p {
     color: #fff;
+    font-size: 22px;
     font-weight: bold;
 }
 
