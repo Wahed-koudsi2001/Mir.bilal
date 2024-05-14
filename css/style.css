@@ -416,8 +416,17 @@ footer .four .btns i {
     font-weight: bold;
 }
 
-.home .info .btns p,
 footer .four .btns p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer .four .btns i {
+    font-size: 22px;
+}
+
+.home .info .btns p {
     color: #fff;
     font-size: 22px;
     font-weight: bold;
