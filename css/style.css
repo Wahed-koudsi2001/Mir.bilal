@@ -120,28 +120,6 @@ nav .overlay,
 footer .overlay {
     top: 0;
     left: 0%;
-    background-image: linear-gradient(to right,
-            #2076af,
-            #011929,
-            #032d48);
-    /* Fallback */
-    background-color: var(--main-color);
-    background-image: -webkit-linear-gradient(to right,
-            var(--main-color),
-            var(--second-color),
-            var(--thired-color));
-    background-image: -moz-linear-gradient(to right,
-            var(--main-color),
-            var(--second-color),
-            var(--thired-color));
-    background-image: -o-linear-gradient(to right,
-            var(--main-color),
-            var(--second-color),
-            var(--thired-color));
-    background-image: linear-gradient(to right,
-            var(--main-color),
-            var(--second-color),
-            var(--thired-color));
     background-size: 200% auto;
     z-index: -1;
     opacity: 0;
@@ -217,6 +195,14 @@ nav .overlay.show,
     margin-top: 100px;
     animation: AjirlyOpacity 3s ease-in-out infinite -1.5s;
     -webkit-animation: AjirlyOpacity 3s ease-in-out infinite -1.5s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    -webkit-transform: translate(-50%, -250%);
+    -moz-transform: translate(-50%, -250%);
+    -ms-transform: translate(-50%, -250%);
+    -o-transform: translate(-50%, -250%);
 }
 
 .mesh-loader h1 span {
@@ -398,6 +384,10 @@ footer .four .btns .btn {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav .overlay.show {
+    background-color: #101044d9 !important;
 }
 
 .home .info .btns i,
